@@ -38,6 +38,6 @@ def run_every_two_hours():
         print("Waiting for the next run...")
         time.sleep(2 * 60 * 60)  # Wait for 2 hours (2 * 60 * 60 seconds)
 
-# Start the script
+# Start the script, this guard is used so that the script only executes when intended
 if __name__ == "__main__":
     run_every_two_hours()
